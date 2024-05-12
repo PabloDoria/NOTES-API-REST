@@ -8,7 +8,7 @@
 Esta aplicación es una Rest API que permite almacenar notas de distintos ámbitos. Las entidades son las notas, sus autores y las clasificaciones que pueden tener.
 
 ## Diagrama ER
-![Diagrama ER](/images/Diagrama ER.png)
+![Diagrama ER](./public/images/Diagrama ER.png)
 
 ## Instrucciones de inicio
 1. Configurar la base de datos en el archivo `.env`.
