@@ -1,0 +1,38 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use App\Models\Clasificacion;
+
+class ClasificacionSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        // Define los nombres de las clasificaciones
+        $clasificaciones = [
+            'Clasificacion 1',
+            'Clasificacion 2',
+            'Clasificacion 3',
+            'Clasificacion 4',
+            'Clasificacion 5',
+            'Clasificacion 6',
+            'Clasificacion 7',
+            'Clasificacion 8',
+            'Clasificacion 9',
+            'Clasificacion 10',
+        ];
+
+        // Itera sobre los nombres y crea un registro para cada uno
+        foreach ($clasificaciones as $nombre) {
+            Clasificacion::create([
+                'nombre' => $nombre,
+            ]);
+        }
+    }
+}
