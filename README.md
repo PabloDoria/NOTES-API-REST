@@ -20,18 +20,18 @@ Esta aplicación es una Rest API que permite almacenar notas de distintos ámbit
 ### Notas
 - **GET:** `/api/nota/{id}`
 - **POST:** `/api/nota?titulo={titulo}&autor={id_autor}&contenido={contenido}&clasificacion={id_clasificacion}`
-- **PUT:** `/api/nota/{id}?contenido={contenido}`
+- **PUT:** `/api/nota/{id}?campo_a_modificar={nuevo_valor}`
 - **DELETE:** `/api/nota/{id}`
 
 ### Autores
 - **GET:** `/api/autor/{id}`
 - **POST:** `/api/autor?nombre={nombre}`
-- **PUT:** `/api/autor/{id}?nombre={nuevo_nombre}`
+- **PUT:** `/api/autor/{id}?campo_a_modificar={nuevo_valor}`
 - **DELETE:** `/api/autor/{id}`
 
 ### Clasificaciones
 - **GET:** `/api/clasificacion/{id}`
 - **POST:** `/api/clasificacion?nombre={nombre}`
-- **PUT:** `/api/clasificacion?nombre={nuevo_nombre}`
+- **PUT:** `/api/clasificacion?campo_a_modificar={nuevo_valor}`
 - **DELETE:** `/api/clasificacion/{id}`
 
